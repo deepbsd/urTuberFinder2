@@ -7,18 +7,86 @@ body {
 }
 
 /*----------------------------------------------------------------------------
+  Header Styles
+----------------------------------------------------------------------------*/
+header {
+  /*min-width: 325px;*/
+  padding: 20px 0;
+  border-radius: 6px;
+  background-color: #A81A2B;
+  // height: 100px;
+  text-align: center;
+}
+
+/*----------------------------------------------------------------------------
   Headings
 ----------------------------------------------------------------------------*/
-
-
+h1.header {
+  margin: 0px auto;
+  padding: 0px 0px 5px 0px;
+  font-family: 'Coiny', cursive;
+  font-size: 32px;
+  color: white;
+  width: 250px;
+  display: inline-block;
+}
+h3.header {
+  padding: 0px 0px 5px 0px;
+  color: white;
+  font-size: 14px;
+  font-family: cursive;
+  font-style: italic;
+}
 
 /*----------------------------------------------------------------------------
   HTML
 ----------------------------------------------------------------------------*/
 html {
+  background-color: lightgray;
   font-size: 14px;
 }
 
+
+/*----------------------------------------------------------------------------
+  FORM ELEMENTS
+----------------------------------------------------------------------------*/
+form {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+fieldset {
+  padding: 16px;
+}
+select {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: gray;
+  font-weight: medium;
+  background: white;
+}
+input {
+  border: dotted 0.1px gray;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+option {
+  padding-left: 30px;
+}
+
+button {
+  border-radius: 6px;
+  width: 200px;
+  margin-top: 15px;
+  background-color: #A81A2B;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Coiny";
+}
 
 /*----------------------------------------------------------------------------
   Image
