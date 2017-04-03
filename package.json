@@ -1,0 +1,21 @@
+{
+  "name": "angular-a",
+  "version": "1.0.0",
+  "description": "Simple boilerplate in Angular 1.",
+  "main": "index.js",
+  "scripts": {
+    "start": "server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuraijane/angular-a.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuraijane/angular-a/issues"
+  },
+  "homepage": "https://github.com/samuraijane/angular-a#readme"
+}
