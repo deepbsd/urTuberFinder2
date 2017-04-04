@@ -1,13 +1,14 @@
-# Angular A
+# urTuberFinder2 
 
-Simple boilerplate in Angular 1.
+This started as a fork from samuraijane, but I'm incorporating into it 
+my urTuberFinder project.
 
 ## Features
 
-* Angular 1
+* Gulp
 * Express
 * Sass
 
 ## App Development
 
-* Running *gulp watch* in the terminal provides a local server at port 3000 as well as watch tasks that compile SCSS to CSS and browser refresh when HTML files in the public folder change
+* This is for the jQuery Capstone project
